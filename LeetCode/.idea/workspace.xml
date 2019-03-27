@@ -3,6 +3,172 @@
   <component name="ChangeListManager">
     <list default="true" id="c5d4a35e-881e-4542-a4ef-67131f85beb9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall/src/main/java/com/alipay/demo/trade/DemoHbRunner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall/src/main/java/com/alipay/demo/trade/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall/src/main/java/com/mmall/common/Const.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall/src/main/java/com/mmall/common/ResponseCode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall/src/main/java/com/mmall/common/ServerResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall/src/main/java/com/mmall/common/TokenCache.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall/src/main/java/com/mmall/controller/backend/CategoryManageController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall/src/main/java/com/mmall/controller/backend/OrderManageController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall/src/main/java/com/mmall/controller/backend/ProductManageController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall/src/main/java/com/mmall/controller/backend/UserManageController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall/src/main/java/com/mmall/controller/portal/CartController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall/src/main/java/com/mmall/controller/portal/OrderController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall/src/main/java/com/mmall/controller/portal/ProductController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall/src/main/java/com/mmall/controller/portal/ShippingController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall/src/main/java/com/mmall/controller/portal/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall/src/main/java/com/mmall/dao/CartMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall/src/main/java/com/mmall/dao/CategoryMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall/src/main/java/com/mmall/dao/OrderItemMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall/src/main/java/com/mmall/dao/OrderMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall/src/main/java/com/mmall/dao/PayInfoMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall/src/main/java/com/mmall/dao/ProductMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall/src/main/java/com/mmall/dao/ShippingMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall/src/main/java/com/mmall/dao/UserMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall/src/main/java/com/mmall/pojo/Cart.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall/src/main/java/com/mmall/pojo/Category.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall/src/main/java/com/mmall/pojo/Order.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall/src/main/java/com/mmall/pojo/OrderItem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall/src/main/java/com/mmall/pojo/PayInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall/src/main/java/com/mmall/pojo/Product.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall/src/main/java/com/mmall/pojo/Shipping.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall/src/main/java/com/mmall/pojo/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall/src/main/java/com/mmall/service/ICartService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall/src/main/java/com/mmall/service/ICategoryService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall/src/main/java/com/mmall/service/IFileService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall/src/main/java/com/mmall/service/IOrderService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall/src/main/java/com/mmall/service/IProductService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall/src/main/java/com/mmall/service/IShippingService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall/src/main/java/com/mmall/service/IUserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall/src/main/java/com/mmall/service/impl/CartServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall/src/main/java/com/mmall/service/impl/CategoryServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall/src/main/java/com/mmall/service/impl/FileServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall/src/main/java/com/mmall/service/impl/OrderServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall/src/main/java/com/mmall/service/impl/ProductServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall/src/main/java/com/mmall/service/impl/ShippingServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall/src/main/java/com/mmall/service/impl/UserServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall/src/main/java/com/mmall/util/BigDecimalUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall/src/main/java/com/mmall/util/DateTimeUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall/src/main/java/com/mmall/util/FTPUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall/src/main/java/com/mmall/util/MD5Util.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall/src/main/java/com/mmall/util/PropertiesUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall/src/main/java/com/mmall/vo/CartProductVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall/src/main/java/com/mmall/vo/CartVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall/src/main/java/com/mmall/vo/OrderItemVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall/src/main/java/com/mmall/vo/OrderProductVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall/src/main/java/com/mmall/vo/OrderVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall/src/main/java/com/mmall/vo/ProductDetailVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall/src/main/java/com/mmall/vo/ProductListVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall/src/main/java/com/mmall/vo/ShippingVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall/src/main/resources/applicationContext-datasource.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall/src/main/resources/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall/src/main/resources/datasource.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall/src/main/resources/generatorConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall/src/main/resources/logback.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall/src/main/resources/mappers/CartMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall/src/main/resources/mappers/CategoryMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall/src/main/resources/mappers/OrderItemMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall/src/main/resources/mappers/OrderMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall/src/main/resources/mappers/PayInfoMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall/src/main/resources/mappers/ProductMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall/src/main/resources/mappers/ShippingMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall/src/main/resources/mappers/UserMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall/src/main/resources/mmall.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall/src/main/resources/zfbinfo.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall/src/main/tools/mysql-connector-java-5.1.6-bin.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall/src/main/webapp/WEB-INF/dispatcher-servlet.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall/src/main/webapp/WEB-INF/lib/alipay-sdk-java20161213173952-source.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall/src/main/webapp/WEB-INF/lib/alipay-sdk-java20161213173952.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall/src/main/webapp/WEB-INF/lib/alipay-trade-sdk-20161215-source.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall/src/main/webapp/WEB-INF/lib/alipay-trade-sdk-20161215.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall/src/main/webapp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall/src/test/java/com/mmall/dao/test/CategoryDaoTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall/src/test/java/com/mmall/dao/test/DaoTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall/src/test/java/com/mmall/service/test/ProductServiceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall/src/test/java/com/mmall/service/test/ShippingServiceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall/src/test/java/com/mmall/test/Base64GroupTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall/src/test/java/com/mmall/test/BigDecimalTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall/src/test/java/com/mmall/test/TestBase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall2/src/main/java/com/mmall/common/Const.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall2/src/main/java/com/mmall/common/ExceptionResolver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall2/src/main/java/com/mmall/common/RedisPool.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall2/src/main/java/com/mmall/common/RedisShardedPool.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall2/src/main/java/com/mmall/common/RedissonManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall2/src/main/java/com/mmall/common/ResponseCode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall2/src/main/java/com/mmall/common/ServerResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall2/src/main/java/com/mmall/controller/backend/CategoryManageController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall2/src/main/java/com/mmall/controller/backend/OrderManageController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall2/src/main/java/com/mmall/controller/backend/ProductManageController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall2/src/main/java/com/mmall/controller/backend/UserManageController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall2/src/main/java/com/mmall/controller/common/SessionExpireFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall2/src/main/java/com/mmall/controller/common/interceptor/AuthorityInterceptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall2/src/main/java/com/mmall/controller/portal/CartController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall2/src/main/java/com/mmall/controller/portal/OrderController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall2/src/main/java/com/mmall/controller/portal/ProductController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall2/src/main/java/com/mmall/controller/portal/ShippingController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall2/src/main/java/com/mmall/controller/portal/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall2/src/main/java/com/mmall/controller/portal/UserSpringSessionController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall2/src/main/java/com/mmall/dao/CartMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall2/src/main/java/com/mmall/dao/CategoryMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall2/src/main/java/com/mmall/dao/OrderItemMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall2/src/main/java/com/mmall/dao/OrderMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall2/src/main/java/com/mmall/dao/PayInfoMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall2/src/main/java/com/mmall/dao/ProductMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall2/src/main/java/com/mmall/dao/ShippingMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall2/src/main/java/com/mmall/dao/UserMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall2/src/main/java/com/mmall/pojo/Cart.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall2/src/main/java/com/mmall/pojo/Category.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall2/src/main/java/com/mmall/pojo/Order.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall2/src/main/java/com/mmall/pojo/OrderItem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall2/src/main/java/com/mmall/pojo/PayInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall2/src/main/java/com/mmall/pojo/Product.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall2/src/main/java/com/mmall/pojo/Shipping.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall2/src/main/java/com/mmall/pojo/TestPojo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall2/src/main/java/com/mmall/pojo/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall2/src/main/java/com/mmall/service/ICartService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall2/src/main/java/com/mmall/service/ICategoryService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall2/src/main/java/com/mmall/service/IFileService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall2/src/main/java/com/mmall/service/IOrderService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall2/src/main/java/com/mmall/service/IProductService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall2/src/main/java/com/mmall/service/IShippingService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall2/src/main/java/com/mmall/service/IUserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall2/src/main/java/com/mmall/service/impl/CartServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall2/src/main/java/com/mmall/service/impl/CategoryServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall2/src/main/java/com/mmall/service/impl/FileServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall2/src/main/java/com/mmall/service/impl/OrderServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall2/src/main/java/com/mmall/service/impl/ProductServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall2/src/main/java/com/mmall/service/impl/ShippingServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall2/src/main/java/com/mmall/service/impl/UserServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall2/src/main/java/com/mmall/task/CloseOrderTask.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall2/src/main/java/com/mmall/util/BigDecimalUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall2/src/main/java/com/mmall/util/CookieUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall2/src/main/java/com/mmall/util/DateTimeUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall2/src/main/java/com/mmall/util/FTPUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall2/src/main/java/com/mmall/util/JsonUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall2/src/main/java/com/mmall/util/MD5Util.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall2/src/main/java/com/mmall/util/PropertiesUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall2/src/main/java/com/mmall/util/RedisPoolUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall2/src/main/java/com/mmall/util/RedisShardedPoolUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall2/src/main/java/com/mmall/vo/CartProductVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall2/src/main/java/com/mmall/vo/CartVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall2/src/main/java/com/mmall/vo/OrderItemVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall2/src/main/java/com/mmall/vo/OrderProductVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall2/src/main/java/com/mmall/vo/OrderVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall2/src/main/java/com/mmall/vo/ProductDetailVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall2/src/main/java/com/mmall/vo/ProductListVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall2/src/main/java/com/mmall/vo/ShippingVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall2/src/test/java/com/mmall/dao/test/CategoryDaoTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall2/src/test/java/com/mmall/dao/test/DaoTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall2/src/test/java/com/mmall/service/test/ProductServiceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall2/src/test/java/com/mmall/service/test/ShippingServiceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall2/src/test/java/com/mmall/test/Base64GroupTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall2/src/test/java/com/mmall/test/BigDecimalTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall2/src/test/java/com/mmall/test/TestBase.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -93,7 +259,7 @@
     <session id="430831999">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.1217" value="1" />
           <entry key="project.open.time.15" value="1" />
@@ -164,7 +330,7 @@
         <entry file="file://$PROJECT_DIR$/java/PlayWithAlgorithms/No_4_UsingHashTable/MoreAboutMapAndSet/Solution349.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
-              <caret line="19" column="35" lean-forward="true" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
+              <caret line="19" column="35" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -270,8 +436,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="311" />
-    <option name="y" value="23" />
+    <option name="x" value="798" />
+    <option name="y" value="71" />
     <option name="width" value="1182" />
     <option name="height" value="841" />
   </component>
@@ -366,7 +532,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553688740491" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553695102950" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -525,15 +691,15 @@
       <workItem from="1553437688730" duration="387000" />
       <workItem from="1553518674332" duration="16160000" />
       <workItem from="1553608129410" duration="342000" />
-      <workItem from="1553669724022" duration="3231000" />
+      <workItem from="1553669724022" duration="4351000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="143279000" />
+    <option name="totallyTimeSpent" value="144399000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="311" y="23" width="1182" height="841" extended-state="0" />
+    <frame x="798" y="71" width="1182" height="841" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30877194" />
@@ -545,7 +711,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3292011" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32369146" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32369146" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3939394" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -995,7 +1161,7 @@
     <entry file="file://$PROJECT_DIR$/java/PlayWithAlgorithms/No_4_UsingHashTable/MoreAboutMapAndSet/Solution349.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
-          <caret line="19" column="35" lean-forward="true" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
+          <caret line="19" column="35" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
         </state>
       </provider>
     </entry>
