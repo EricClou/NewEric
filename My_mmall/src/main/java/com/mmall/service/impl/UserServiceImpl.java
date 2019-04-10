@@ -37,12 +37,14 @@ public class UserServiceImpl implements IUserService {
             return ServerResponse.createByErrorMessage("密码错误");
         }
 
+        //这里将密码设置为空是为了防止攻击者从信息流里面获取到密码
         user.setPassword(org.apache.commons.lang3.StringUtils.EMPTY);
         return ServerResponse.createBySuccess("登录成功", user);
     }
 
 
     public ServerResponse <String> register ( User user ) {
+        //验证用户名、邮箱是否已经注册
         ServerResponse validResponse = this.checkValid(user.getUsername(), Const.USERNAME);
         if (!validResponse.isSuccess()) {
             return validResponse;
@@ -52,6 +54,7 @@ public class UserServiceImpl implements IUserService {
             return validResponse;
         }
         user.setRole(Const.Role.ROLE_CUSTOMER);
+
         //MD5加密
         user.setPassword(MD5Util.MD5EncodeUtf8(user.getPassword()));
         int resultCount = userMapper.insert(user);

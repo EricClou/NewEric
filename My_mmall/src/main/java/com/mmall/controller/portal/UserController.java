@@ -14,7 +14,8 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import javax.servlet.http.HttpSession;
 
 /**
- * Created by geely
+ * 其实仔细分析不难看出
+ * 所有的controller类里面都仔细地执行了单一职责原则
  */
 @Controller
 @RequestMapping("/user/")
@@ -75,6 +76,12 @@ public class UserController {
     }
 
 
+    /**
+     * 忘记密码
+     *
+     * @param username
+     * @return
+     */
     @RequestMapping(value = "forget_get_question.do", method = RequestMethod.POST)
     @ResponseBody
     public ServerResponse <String> forgetGetQuestion ( String username ) {
@@ -82,6 +89,14 @@ public class UserController {
     }
 
 
+    /**
+     * 匹配密码问题，这里传入username的目的是为了用它来查找出问题和答案
+     *
+     * @param username
+     * @param question
+     * @param answer
+     * @return
+     */
     @RequestMapping(value = "forget_check_answer.do", method = RequestMethod.POST)
     @ResponseBody
     public ServerResponse <String> forgetCheckAnswer ( String username, String question, String answer ) {
