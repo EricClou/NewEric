@@ -10,8 +10,5 @@ public class Test {
 
         Target adapterTarget = new Adapter();
         adapterTarget.request();
-
-
-
     }
 }
