@@ -12,9 +12,6 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 import javax.servlet.http.HttpSession;
 
-/**
- * Created by geely
- */
 
 //告诉DispatcherServlet相关的容器， 这是一个Controller， 管理好这个bean哦
 @Controller
@@ -35,10 +32,14 @@ public class UserManageController {
     //写入到Response对象的body数据区。返回的数据不是html标签的页面，而是其他某种格式的数据时（如json、xml等）使用；
     @ResponseBody
 
+    /**
+     * 后台管理用户登陆，这里必须由管理员账号才能登陆，因此具有用户等级验证操作，防止纵向越权
+     */
     public ServerResponse <User> login ( String username, String password, HttpSession session ) {
         ServerResponse <User> response = iUserService.login(username, password);
         if (response.isSuccess()) {
             User user = response.getData();
+            //这里进行用户等级验证，目的是为了防止纵向越权。
             if (user.getRole() == Const.Role.ROLE_ADMIN) {
                 //说明登录的是管理员
                 session.setAttribute(Const.CURRENT_USER, user);

@@ -1,15 +1,12 @@
 package com.mmall.util;
 
-import org.springframework.util.StringUtils;
-
 import java.security.MessageDigest;
 
-/**
- * Created by geely
- */
+
 public class MD5Util {
 
-    private static String byteArrayToHexString(byte b[]) {
+    //将字节数组拼接为十六位字符串
+    private static String byteArrayToHexString ( byte b[] ) {
         StringBuffer resultSb = new StringBuffer();
         for (int i = 0; i < b.length; i++)
             resultSb.append(byteToHexString(b[i]));
@@ -17,7 +14,8 @@ public class MD5Util {
         return resultSb.toString();
     }
 
-    private static String byteToHexString(byte b) {
+    //将一个字节转换成十六位字符串
+    private static String byteToHexString ( byte b ) {
         int n = b;
         if (n < 0)
             n += 256;
@@ -29,11 +27,11 @@ public class MD5Util {
     /**
      * 返回大写MD5
      *
-     * @param origin
+     * @param origin      需要加密的原字符串
      * @param charsetname
      * @return
      */
-    private static String MD5Encode(String origin, String charsetname) {
+    private static String MD5Encode ( String origin, String charsetname ) {
         String resultString = null;
         try {
             resultString = new String(origin);
@@ -47,7 +45,7 @@ public class MD5Util {
         return resultString.toUpperCase();
     }
 
-    public static String MD5EncodeUtf8(String origin) {
+    public static String MD5EncodeUtf8 ( String origin ) {
         origin = origin + PropertiesUtil.getProperty("password.salt", "");
         return MD5Encode(origin, "utf-8");
     }

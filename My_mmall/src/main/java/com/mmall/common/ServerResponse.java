@@ -5,11 +5,13 @@ import org.codehaus.jackson.map.annotate.JsonSerialize;
 
 import java.io.Serializable;
 
-/**
- * Created by geely
- */
+
 @JsonSerialize(include = JsonSerialize.Inclusion.NON_NULL)
 //保证序列化json的时候,如果是null的对象,key也会消失
+
+//ServerResponse 结果通用复用类，分为状态status，备注信息msg和数据内容data
+
+
 public class ServerResponse<T> implements Serializable {
 
     private int status;
@@ -56,6 +58,11 @@ public class ServerResponse<T> implements Serializable {
 
 
     /**
+     * 这里就用到了设计模式中的静态工厂方法
+     *
+     * 这里使用静态工厂方法的好处是：
+     * 由下面的方法可以看出，在创建的时候拥有名称，而从名称中就可以看出这个对象的基本情况（success/error，有无message等）
+     *
      * @return 以下这些静态方法调用构造器。
      * 首先分为Success和Error两类，这两类的分辨首先在Service层由代码逻辑就可以判定出来了，
      * 那么这里只要名字上带有success的，在调用构造器的时候就把status设置成success.code。error的情况同理
