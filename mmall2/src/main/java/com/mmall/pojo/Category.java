@@ -1,20 +1,14 @@
 package com.mmall.pojo;
 
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.EqualsAndHashCode;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
-import lombok.ToString;
+import lombok.*;
 
 import java.util.Date;
 
 @Getter
 @Setter
-@NoArgsConstructor
-@AllArgsConstructor
-@EqualsAndHashCode(of = "id")
+@NoArgsConstructor     //无参构造
+@AllArgsConstructor    //全参构造
+@EqualsAndHashCode(of = "id")   //利用注解重写equals方法，of代表着只从这一个属性上来判断
 public class Category {
     private Integer id;
 
