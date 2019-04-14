@@ -6,6 +6,7 @@ import com.mmall.dao.UserMapper;
 import com.mmall.pojo.User;
 import com.mmall.service.IUserService;
 import com.mmall.utils.MD5Utils;
+import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -58,7 +59,7 @@ public class UserServiceImpl implements IUserService {
     @Override
     public ServerResponse checkValid ( String username, String email ) {
         if (userMapper.checkUsername(username) > 0) return ServerResponse.createByErrorMessage("该用户名已经被注册");
-        if (userMapper.checkEmail(email) > 0) return ServerResponse.createByErrorMessage("该邮箱已被注册");
+        if (userMapper.checkEmailByUsername(email, username) > 0) return ServerResponse.createByErrorMessage("该邮箱已被注册");
         return ServerResponse.createBySuccess();
 
     }
@@ -82,7 +83,7 @@ public class UserServiceImpl implements IUserService {
     @Override
     public ServerResponse <User> updateUserInfo ( User user ) {
 
-        int resultCount = userMapper.checkEmail(user.getEmail());
+        int resultCount = userMapper.checkEmailByUsername(user.getEmail(), user.getUsername());
         if (resultCount > 0) {
             return ServerResponse.createByErrorMessage("email已经存在，请更换");
         }
@@ -95,7 +96,22 @@ public class UserServiceImpl implements IUserService {
 
         int updateCount = userMapper.updateByPrimaryKeySelective(user);
         if (updateCount == 0) return ServerResponse.createByErrorMessage("更新信息失败");
-        return ServerResponse.createBySuccess("更新信息成功",updateUser);
+        return ServerResponse.createBySuccess("更新信息成功", updateUser);
     }
 
+//    @Override
+//    public ServerResponse <String> checkAnswer ( String username, String question, String answer ) {
+//        int resultCount = userMapper.checkAnswer(username, question, answer);
+//        if (resultCount > 0) return ServerResponse.createBySuccessMessage("")
+//    }
+
+
+    @Override
+    public ServerResponse <String> selectionQuestion ( Integer userId ) {
+        String question = userMapper.selectionQuestion(userId);
+        if ( StringUtils.isBlank(question)) return ServerResponse.createByError();
+        return ServerResponse.createBySuccessMessage(question);
+
+
+    }
 }

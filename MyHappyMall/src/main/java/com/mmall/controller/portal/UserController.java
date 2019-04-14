@@ -74,8 +74,9 @@ public class UserController {
         //这两句非常重要，因为我们必须把其放入新的user里面，从页面填空上获得的类是不包含这两项的，但是更新又必须用到
         user.setId(currentUser.getId());
         user.setUsername(currentUser.getUsername());
-        
         ServerResponse <User> response = iUserService.updateUserInfo(user);
+
+        //这里必须要更新，不然在查询userInfo的时候就是老的信息
         if (response.isSuccess()) {
             response.getData().setUsername(currentUser.getUsername());
             session.setAttribute(Const.CURRENT_USER, response.getData());
@@ -94,4 +95,29 @@ public class UserController {
 
         return iUserService.updatePassword(user.getUsername(), oldPassword, newPassword);
     }
+
+
+    //首先需要从数据库里面拿出问题显示到前台
+    @RequestMapping(value = "/forget_get_question.do")
+    @ResponseBody
+    public ServerResponse <String> forgetGetquestion ( HttpSession session ) {
+        User user = (User) session.getAttribute(Const.CURRENT_USER);
+
+
+        if (user == null)
+            return ServerResponse.createByErrorMessage("用户未登录,无法进行此操作");
+
+        return iUserService.selectionQuestion(user.getId());
+    }
+
+
+//    @RequestMapping(value = "/forget_password.do", method = RequestMethod.POST)
+//    @ResponseBody
+//    public ServerResponse <String> forgetPassword ( HttpSession session ) {
+//        User user = (User) session.getAttribute(Const.CURRENT_USER);
+//        if (user == null)
+//            return ServerResponse.createByErrorMessage("用户未登录,无法进行此操作");
+//        return iUserService
+//
+//    }
 }

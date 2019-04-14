@@ -7,6 +7,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="973282e2-1010-4e6e-8eba-0ad6d0adc738" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../LeetCode/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LeetCode/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LeetCode/java/Exercise/B.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LeetCode/java/Exercise/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LeetCode/out/production/LeetCode/Exercise/Test.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/mmall/controller/portal/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mmall/controller/portal/UserController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/mmall/dao/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mmall/dao/UserMapper.java" afterDir="false" />
@@ -24,7 +28,6 @@
       <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/com/mmall/service/IUserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/com/mmall/service/IUserService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/com/mmall/service/serviceImpl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/com/mmall/service/serviceImpl/UserServiceImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/mappers/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/mappers/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mmall2/src/main/java/com/mmall/common/Const.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mmall2/src/main/java/com/mmall/common/Const.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -50,29 +53,29 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="20" />
+          <entry key="java" value="21" />
           <entry key="properties" value="5" />
           <entry key="xml" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="20" />
+          <entry key="JAVA" value="21" />
           <entry key="Properties" value="5" />
           <entry key="XML" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="3761" />
-          <entry key="xml" value="541" />
+          <entry key="java" value="4708" />
+          <entry key="xml" value="635" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3761" />
-          <entry key="SQL" value="13" />
-          <entry key="XML" value="528" />
+          <entry key="JAVA" value="4708" />
+          <entry key="SQL" value="15" />
+          <entry key="XML" value="620" />
         </counts>
       </usages-collector>
     </session>
@@ -91,8 +94,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/controller/portal/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="235">
-              <caret line="76" column="8" selection-end-line="97" />
+            <state relative-caret-position="69">
+              <caret line="100" column="53" selection-start-line="100" selection-start-column="53" selection-end-line="100" selection-end-column="53" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -103,8 +106,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/service/IUserService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="62" lean-forward="true" selection-start-line="15" selection-end-line="16" />
+            <state relative-caret-position="289">
+              <caret line="17" column="69" selection-start-line="17" selection-start-column="69" selection-end-line="17" selection-end-column="69" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -115,8 +118,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/service/serviceImpl/UserServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="81" column="13" lean-forward="true" selection-start-line="81" selection-start-column="13" selection-end-line="81" selection-end-column="13" />
+            <state relative-caret-position="322">
+              <caret line="113" lean-forward="true" selection-start-line="113" selection-end-line="113" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -125,10 +128,23 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5-sources.jar!/org/apache/commons/lang3/StringUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="295" column="26" selection-start-line="295" selection-start-column="26" selection-end-line="295" selection-end-column="26" />
+              <folding>
+                <element signature="e#11848#11849#0" expanded="true" />
+                <element signature="e#11883#11884#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/dao/UserMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="237">
-              <caret line="24" column="68" selection-start-line="24" selection-start-column="68" selection-end-line="24" selection-end-column="68" />
+            <state relative-caret-position="271">
+              <caret line="32" selection-end-line="36" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -139,8 +155,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/mappers/UserMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="164">
-              <caret line="172" column="60" lean-forward="true" selection-start-line="172" selection-start-column="60" selection-end-line="172" selection-end-column="60" />
+            <state relative-caret-position="339">
+              <caret line="191" selection-start-line="191" selection-end-line="191" />
             </state>
           </provider>
         </entry>
@@ -206,9 +222,9 @@
         <option value="$PROJECT_DIR$/src/main/java/com/mmall/utils/MD5Utils.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mmall/commons/ServerResponse.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mmall/commons/Const.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mappers/UserMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/mmall/service/IUserService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mmall/dao/UserMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/mappers/UserMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/mmall/service/serviceImpl/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mmall/controller/portal/UserController.java" />
       </list>
@@ -273,9 +289,9 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="393" />
-    <option name="y" value="47" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="188" />
+    <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="842" />
   </component>
@@ -292,7 +308,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555214532237" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555234121573" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -427,15 +443,15 @@
       <updated>1554992331169</updated>
       <workItem from="1554992333988" duration="4241000" />
       <workItem from="1555024471034" duration="15618000" />
-      <workItem from="1555207375098" duration="4882000" />
+      <workItem from="1555207375098" duration="8773000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24741000" />
+    <option name="totallyTimeSpent" value="28632000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="393" y="47" width="1440" height="842" extended-state="0" />
+    <frame x="188" y="23" width="1440" height="842" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.21816881" />
@@ -668,13 +684,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5-sources.jar!/org/apache/commons/lang3/StringUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="153" lean-forward="true" selection-start-line="153" selection-end-line="153" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/utils/MD5Utils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-154">
@@ -699,10 +708,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mappers/UserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="191" selection-start-line="191" selection-end-line="191" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/service/IUserService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="62" lean-forward="true" selection-start-line="15" selection-end-line="16" />
+        <state relative-caret-position="289">
+          <caret line="17" column="69" selection-start-line="17" selection-start-column="69" selection-end-line="17" selection-end-column="69" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -711,25 +727,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/dao/UserMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="24" column="68" selection-start-line="24" selection-start-column="68" selection-end-line="24" selection-end-column="68" />
+        <state relative-caret-position="271">
+          <caret line="32" selection-end-line="36" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mappers/UserMapper.xml">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5-sources.jar!/org/apache/commons/lang3/StringUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="172" column="60" lean-forward="true" selection-start-line="172" selection-start-column="60" selection-end-line="172" selection-end-column="60" />
+        <state relative-caret-position="242">
+          <caret line="295" column="26" selection-start-line="295" selection-start-column="26" selection-end-line="295" selection-end-column="26" />
+          <folding>
+            <element signature="e#11848#11849#0" expanded="true" />
+            <element signature="e#11883#11884#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/service/serviceImpl/UserServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="81" column="13" lean-forward="true" selection-start-line="81" selection-start-column="13" selection-end-line="81" selection-end-column="13" />
+        <state relative-caret-position="322">
+          <caret line="113" lean-forward="true" selection-start-line="113" selection-end-line="113" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -738,8 +758,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/controller/portal/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="76" column="8" selection-end-line="97" />
+        <state relative-caret-position="69">
+          <caret line="100" column="53" selection-start-line="100" selection-start-column="53" selection-end-line="100" selection-end-column="53" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

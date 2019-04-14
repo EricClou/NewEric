@@ -169,8 +169,8 @@
     </select>
 
 
-    <select id="checkEmail" parameterType="map" resultType="int">
-        select count(1) from mmall_user where email=#{email}
+    <select id="checkEmailByUsername" parameterType="map" resultType="int">
+        select count(1) from mmall_user where email=#{email} and username!=#{username}
     </select>
 
     <update id="updatePassword" parameterType="map">
@@ -182,5 +182,15 @@
       where username=#{username} and password =#{oldPassword}
           </update>
 
+    <select id="checkAnswer" parameterType="map" resultType="int">
+        select  count(1) from mmall_user
+    where username=#{username}
+    and question = #{question}
+    and answer = #{answer}
+    </select>
 
+
+    <select id="selectionQuestion" parameterType="integer" resultType="string">
+        select question from mmall_user where id=#{userId}
+    </select>
 </mapper>
