@@ -100,14 +100,21 @@ public class UserController {
     //首先需要从数据库里面拿出问题显示到前台
     @RequestMapping(value = "/forget_get_question.do")
     @ResponseBody
-    public ServerResponse <String> forgetGetquestion ( HttpSession session ) {
+    public ServerResponse <String> forgetGetQuestion ( HttpSession session ) {
         User user = (User) session.getAttribute(Const.CURRENT_USER);
 
 
         if (user == null)
             return ServerResponse.createByErrorMessage("用户未登录,无法进行此操作");
 
-        return iUserService.selectionQuestion(user.getId());
+        return iUserService.selectQuestion(user.getUsername());
+    }
+
+
+    @RequestMapping(value = "forget_check_answer.do",method = RequestMethod.POST)
+    @ResponseBody
+    public ServerResponse <String> forgetCheckAnswer ( String username, String question, String answer ) {
+        return iUserService.checkAnswer(username, question, answer);
     }
 
 

@@ -2,6 +2,7 @@ package com.mmall.service.serviceImpl;
 
 import com.mmall.commons.ResponseCode;
 import com.mmall.commons.ServerResponse;
+import com.mmall.commons.TokenCache;
 import com.mmall.dao.UserMapper;
 import com.mmall.pojo.User;
 import com.mmall.service.IUserService;
@@ -9,6 +10,8 @@ import com.mmall.utils.MD5Utils;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+
+import java.util.UUID;
 
 @Service("iUserService")
 public class UserServiceImpl implements IUserService {
@@ -99,19 +102,31 @@ public class UserServiceImpl implements IUserService {
         return ServerResponse.createBySuccess("更新信息成功", updateUser);
     }
 
-//    @Override
-//    public ServerResponse <String> checkAnswer ( String username, String question, String answer ) {
-//        int resultCount = userMapper.checkAnswer(username, question, answer);
-//        if (resultCount > 0) return ServerResponse.createBySuccessMessage("")
-//    }
+
+    @Override
+    public ServerResponse <String> selectQuestion ( String username ) {
+
+        int validCount = userMapper.checkUsername(username);
+        if (validCount == 0) return ServerResponse.createByErrorMessage("用户不存在");
+
+        String question = userMapper.selectQuestion(username);
+        if (StringUtils.isBlank(question)) return ServerResponse.createByErrorMessage("找回密码问题为空");
+        return ServerResponse.createBySuccess(question);
+
+    }
 
 
     @Override
-    public ServerResponse <String> selectionQuestion ( Integer userId ) {
-        String question = userMapper.selectionQuestion(userId);
-        if ( StringUtils.isBlank(question)) return ServerResponse.createByError();
-        return ServerResponse.createBySuccessMessage(question);
+    public ServerResponse <String> checkAnswer ( String username, String question, String answer ) {
 
+        int resultCount = 0;
+        resultCount = userMapper.checkAnswer(username, question, answer);
+        if (resultCount > 0){
+            String forgetToken = UUID.randomUUID().toString();
+            TokenCache.setKey(TokenCache.TOKEN_PREFIX+username,forgetToken);
+            return ServerResponse.createBySuccess(forgetToken);
+        }
+        return ServerResponse.createByErrorMessage("问题答案错误");
 
     }
 }

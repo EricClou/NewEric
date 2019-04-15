@@ -31,7 +31,8 @@ public interface UserMapper {
     int checkAnswer ( @Param("username") String username, @Param("question") String question, @Param("answer") String answer );
 
 
-    String selectionQuestion ( Integer userId );
+    String selectQuestion ( String username );
+
 
 
 }

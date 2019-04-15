@@ -190,7 +190,9 @@
     </select>
 
 
-    <select id="selectionQuestion" parameterType="integer" resultType="string">
-        select question from mmall_user where id=#{userId}
+    <select id="selectQuestion" parameterType="string" resultType="string">
+        select question from mmall_user where username=#{username}
     </select>
+
+
 </mapper>

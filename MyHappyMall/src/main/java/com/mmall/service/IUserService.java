@@ -15,10 +15,10 @@ public interface IUserService {
 
     public ServerResponse <User> updateUserInfo ( User user );
 
-    public ServerResponse <String> selectionQuestion ( Integer userId );
+    public ServerResponse <String> selectQuestion ( String username );
 
+    public ServerResponse <String> checkAnswer ( String username, String question, String answer );
 
-//    public ServerResponse <String> checkAnswer ( String username,String question,String answer  );
 
 
 
