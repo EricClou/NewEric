@@ -11,13 +11,15 @@ public interface IUserService {
 
     public ServerResponse <String> checkValid ( String username, String email );
 
-    public ServerResponse <String> updatePassword ( String username, String oldPassword, String newPassword );
+    public ServerResponse <String> resetPassword ( String username, String oldPassword, String newPassword );
 
     public ServerResponse <User> updateUserInfo ( User user );
 
     public ServerResponse <String> selectQuestion ( String username );
 
     public ServerResponse <String> checkAnswer ( String username, String question, String answer );
+
+    public ServerResponse <String> forgetResetPassword ( String username, String passwordNew, String forgetToken );
 
 
 

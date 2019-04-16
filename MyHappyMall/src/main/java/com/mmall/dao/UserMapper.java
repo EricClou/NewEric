@@ -26,12 +26,15 @@ public interface UserMapper {
     //而在这种情况下如果检查范围放在全部数据上就会出现因为重复而导致其他信息无法更新
     int checkEmailByUsername ( @Param("email") String email, @Param("username") String username );
 
-    int updatePassword ( @Param("username") String username, @Param("oldPassword") String oldPassword, @Param("newPassword") String newPassword );
+    int resetPassword ( @Param("username") String username, @Param("oldPassword") String oldPassword, @Param("newPassword") String newPassword );
 
     int checkAnswer ( @Param("username") String username, @Param("question") String question, @Param("answer") String answer );
 
 
     String selectQuestion ( String username );
+
+
+    int updatePasswordByUsername ( @Param("username") String username, @Param("newPassword") String newPassword );
 
 
 

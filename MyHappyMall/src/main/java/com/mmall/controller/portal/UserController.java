@@ -93,7 +93,7 @@ public class UserController {
         if (user == null)
             return ServerResponse.createByErrorMessage("用户未登录,无法进行此操作");
 
-        return iUserService.updatePassword(user.getUsername(), oldPassword, newPassword);
+        return iUserService.resetPassword(user.getUsername(), oldPassword, newPassword);
     }
 
 
@@ -111,10 +111,17 @@ public class UserController {
     }
 
 
-    @RequestMapping(value = "forget_check_answer.do",method = RequestMethod.POST)
+    @RequestMapping(value = "forget_check_answer.do", method = RequestMethod.POST)
     @ResponseBody
     public ServerResponse <String> forgetCheckAnswer ( String username, String question, String answer ) {
         return iUserService.checkAnswer(username, question, answer);
+    }
+
+
+    @RequestMapping(value = "forget_reset_password.do", method = RequestMethod.POST)
+    @ResponseBody
+    public ServerResponse <String> forgetResetPassword ( String username, String passwordNew, String forgetToken ) {
+        return iUserService.forgetResetPassword(username,passwordNew,forgetToken);
     }
 
 
