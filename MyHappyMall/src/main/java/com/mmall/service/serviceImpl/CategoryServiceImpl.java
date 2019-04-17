@@ -104,6 +104,7 @@ public class CategoryServiceImpl implements ICategoryService {
 
     //递归算法,算出子节点
     private Set<Category> findChildCategory( Set<Category> categorySet , Integer categoryId){
+
         Category category = categoryMapper.selectByPrimaryKey(categoryId);
         if(category != null){
             categorySet.add(category);
