@@ -27,7 +27,7 @@ public class ProductServiceImpl implements IProductService {
         if (productId == null)
             return ServerResponse.createByErrorCodeMessage(ResponseCode.ILLEGAL_ARGUMENT.getCode(), ResponseCode.ILLEGAL_ARGUMENT.getDesc());
         Product product = productMapper.selectByPrimaryKey(productId);
-        
+
         if (product == null) return ServerResponse.createByErrorMessage("产品已下架或删除");
 
         if (product.getStatus() != Const.ProductStatusEnum.ON_SALE.getCode())
@@ -38,7 +38,21 @@ public class ProductServiceImpl implements IProductService {
 
     }
 
-    //包装产品类
+
+
+
+
+    /**
+     * 包装产品类
+     *
+     * 为什么我们需要包装类：
+     * 因为直接从数据库返回出来的pojo类某些时候并不能提供我们所有功能的需求
+     *
+     * 比如我们在前台看到某个查询的结果，可能比普通的pojo类具备更多的属性或者更少的属性
+     * 为了符合前台数据展示需求，所以封装一个新的vo类
+     * @param product
+     * @return
+     */
     private ProductDetailVo assembleProductDetailVo ( Product product ) {
         ProductDetailVo productDetailVo = new ProductDetailVo();
         productDetailVo.setId(product.getId());

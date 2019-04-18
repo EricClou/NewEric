@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c5d4a35e-881e-4542-a4ef-67131f85beb9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../MyHappyMall/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MyHappyMall/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyHappyMall/src/main/java/com/mmall/controller/portal/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MyHappyMall/src/main/java/com/mmall/controller/portal/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyHappyMall/src/main/java/com/mmall/service/serviceImpl/ProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MyHappyMall/src/main/java/com/mmall/service/serviceImpl/ProductServiceImpl.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -100,52 +101,57 @@
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.1217" value="1" />
           <entry key="project.open.time.15" value="1" />
+          <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.23" value="1" />
           <entry key="project.open.time.28" value="1" />
           <entry key="project.open.time.29" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.7" value="2" />
-          <entry key="project.opened" value="12" />
+          <entry key="project.opened" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="42" />
+          <entry key="java" value="44" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="42" />
+          <entry key="JAVA" value="44" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="3651" />
+          <entry key="java" value="4070" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3651" />
+          <entry key="JAVA" value="4070" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/java/SwordToOffer/No_18_二叉树的镜像.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="124">
+              <caret line="15" column="2" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java/PlayWithDataStrucure/Heap/Queue.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/java/NewCoder/Lesson2/Code01_MergeSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+            <state relative-caret-position="-526">
+              <caret line="70" lean-forward="true" selection-start-line="70" selection-end-line="70" />
+              <folding>
+                <element signature="e#1186#1187#0" expanded="true" />
+                <element signature="e#1218#1219#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -190,8 +196,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/java/PlayWithDataStrucure/UnionFound/UnionFind6.java" />
-        <option value="$PROJECT_DIR$/java/PlayWithDataStrucure/Trie/Set.java" />
         <option value="$PROJECT_DIR$/java/PlayWithDataStrucure/Trie/Trie3.java" />
         <option value="$PROJECT_DIR$/java/PlayWithDataStrucure/Trie/Trie.java" />
         <option value="$PROJECT_DIR$/java/PlayWithDataStrucure/Trie/Trie2.java" />
@@ -241,6 +245,8 @@
         <option value="$PROJECT_DIR$/java/Exercise/Test.java" />
         <option value="$PROJECT_DIR$/java/Exercise/B.java" />
         <option value="$PROJECT_DIR$/java/SwordToOffer/No_18_二叉树的镜像.java" />
+        <option value="$PROJECT_DIR$/java/SwordToOffer/No_19_顺时针打印矩阵.java" />
+        <option value="$PROJECT_DIR$/java/NewCoder/Lesson2/Code01_MergeSort.java" />
       </list>
     </option>
   </component>
@@ -251,9 +257,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="219" />
-    <option name="y" value="24" />
-    <option name="width" value="1182" />
+    <option name="x" value="173" />
+    <option name="y" value="23" />
+    <option name="width" value="1209" />
     <option name="height" value="841" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -265,9 +271,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
       <pane id="PackagesPane" />
       <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -284,7 +290,20 @@
               <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
               <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="PlayWithAlgorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="NewCoder" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="NewCoder" type="462c0819:PsiDirectoryNode" />
+              <item name="Lesson2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="note" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
@@ -334,7 +353,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555239495619" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555587793419" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -344,15 +363,15 @@
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/java" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/java/NewCoder/Lesson2" />
+      <recent name="$PROJECT_DIR$/java/NewCoder/Lesson1" />
       <recent name="$PROJECT_DIR$/java/PlayWithAlgorithms/No_4_UsingHashTable/MoreAboutMapAndSet" />
       <recent name="$PROJECT_DIR$/java/PlayWithAlgorithms/No_4_UsingHashTable/IntersectionOfTwoArrays" />
       <recent name="$PROJECT_DIR$/java/PlayWithAlgorithms/No_4_UsingHashTable" />
-      <recent name="$PROJECT_DIR$/java/PlayWithAlgorithms" />
-      <recent name="$PROJECT_DIR$/java/PlayWithAlgorithms/No_3_UsingArray" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/java" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -367,13 +386,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.No_18_二叉树的镜像">
+  <component name="RunManager" selected="Application.Code01_MergeSort">
     <configuration name="字符串距离" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Exercise.字符串距离" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Exercise.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Code01_MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="NewCoder.Lesson2.Code01_MergeSort" />
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="NewCoder.Lesson2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -400,19 +432,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="PlayWithAlgorithms.No_4_UsingHashTable.IntersectionOfTwoArrays.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SomeAboutJAVA" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Exercise.SomeAboutJAVA" />
-      <module name="LeetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Exercise.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -460,19 +479,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.SomeAboutJAVA" />
       <item itemvalue="Application.字符串距离" />
       <item itemvalue="Application.SolutionMap" />
       <item itemvalue="Application.Test" />
       <item itemvalue="Application.No_18_二叉树的镜像" />
+      <item itemvalue="Application.Code01_MergeSort" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Code01_MergeSort" />
         <item itemvalue="Application.No_18_二叉树的镜像" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.SolutionMap" />
         <item itemvalue="Application.字符串距离" />
-        <item itemvalue="Application.SomeAboutJAVA" />
       </list>
     </recent_temporary>
   </component>
@@ -516,17 +535,18 @@
       <workItem from="1554770628518" duration="599000" />
       <workItem from="1555228852694" duration="4375000" />
       <workItem from="1555290024284" duration="322000" />
+      <workItem from="1555575178502" duration="3709000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="154465000" />
+    <option name="totallyTimeSpent" value="158174000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="219" y="24" width="1182" height="841" extended-state="0" />
+    <frame x="173" y="23" width="1209" height="841" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33508772" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12339332" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -558,27 +578,27 @@
       <window_info anchor="right" id="Maven Projects" order="8" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.32982457" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.34122807" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Thumbnails" order="0" weight="0.3292011" />
-      <window_info anchor="bottom" id="Message" order="1" />
-      <window_info anchor="bottom" id="Find" order="2" weight="0.3292011" />
-      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.32369146" />
-      <window_info anchor="bottom" id="Debug" order="4" weight="0.3939394" />
-      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="7" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32872927" />
-      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32872927" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.3278237" />
-      <window_info anchor="bottom" id="JProfiler" order="13" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3292011" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32369146" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3939394" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32872927" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32872927" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3278237" />
+      <window_info anchor="bottom" id="JProfiler" order="12" />
+      <window_info anchor="bottom" id="Thumbnails" order="13" weight="0.3292011" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -641,20 +661,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/java/SwordToOffer/No_14_链表中倒数第k个结点.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="444">
-          <caret line="50" selection-start-line="50" selection-end-line="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/SwordToOffer/No_16_合并两个排序的链表.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="5" lean-forward="true" selection-start-line="5" selection-start-column="5" selection-end-line="12" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/java/SwordToOffer/No_2_替换空格.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="213">
@@ -961,17 +967,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/java/Exercise/B.java" />
     <entry file="file://$PROJECT_DIR$/java/Exercise/Test.java" />
-    <entry file="file://$PROJECT_DIR$/java/SwordToOffer/No_18_二叉树的镜像.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/java/PlayWithDataStrucure/Heap/Queue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/SwordToOffer/No_19_顺时针打印矩阵.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="8" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/SwordToOffer/No_18_二叉树的镜像.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="15" column="2" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/NewCoder/Lesson2/Code01_MergeSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-526">
+          <caret line="70" lean-forward="true" selection-start-line="70" selection-end-line="70" />
+          <folding>
+            <element signature="e#1186#1187#0" expanded="true" />
+            <element signature="e#1218#1219#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
