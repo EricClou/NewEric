@@ -1,30 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c5d4a35e-881e-4542-a4ef-67131f85beb9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../My_mmall/src/main/java/com/alipay/demo/trade/DemoHbRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/../My_mmall/src/main/java/com/alipay/demo/trade/DemoHbRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../My_mmall/src/main/java/com/alipay/demo/trade/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../My_mmall/src/main/java/com/alipay/demo/trade/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../My_mmall/src/main/java/com/mmall/common/Const.java" beforeDir="false" afterPath="$PROJECT_DIR$/../My_mmall/src/main/java/com/mmall/common/Const.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../My_mmall/src/main/java/com/mmall/common/ResponseCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/../My_mmall/src/main/java/com/mmall/common/ResponseCode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../My_mmall/src/main/java/com/mmall/common/TokenCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/../My_mmall/src/main/java/com/mmall/common/TokenCache.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../My_mmall/src/main/java/com/mmall/controller/backend/CategoryManageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../My_mmall/src/main/java/com/mmall/controller/backend/CategoryManageController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../My_mmall/src/main/java/com/mmall/controller/backend/OrderManageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../My_mmall/src/main/java/com/mmall/controller/backend/OrderManageController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../My_mmall/src/main/java/com/mmall/controller/backend/ProductManageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../My_mmall/src/main/java/com/mmall/controller/backend/ProductManageController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../My_mmall/src/main/java/com/mmall/controller/portal/CartController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../My_mmall/src/main/java/com/mmall/controller/portal/CartController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../My_mmall/src/main/java/com/mmall/controller/portal/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../My_mmall/src/main/java/com/mmall/controller/portal/OrderController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../My_mmall/src/main/java/com/mmall/controller/portal/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../My_mmall/src/main/java/com/mmall/controller/portal/ProductController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../My_mmall/src/main/java/com/mmall/controller/portal/ShippingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../My_mmall/src/main/java/com/mmall/controller/portal/ShippingController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../My_mmall/src/main/java/com/mmall/service/ICartService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../My_mmall/src/main/java/com/mmall/service/ICartService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../My_mmall/src/main/java/com/mmall/service/ICategoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../My_mmall/src/main/java/com/mmall/service/ICategoryService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../My_mmall/src/main/java/com/mmall/service/IFileService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../My_mmall/src/main/java/com/mmall/service/IFileService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../My_mmall/src/main/java/com/mmall/service/IOrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../My_mmall/src/main/java/com/mmall/service/IOrderService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../My_mmall/src/main/java/com/mmall/service/IProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../My_mmall/src/main/java/com/mmall/service/IProductService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../My_mmall/src/main/java/com/mmall/service/IShippingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../My_mmall/src/main/java/com/mmall/service/IShippingService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../My_mmall/src/main/java/com/mmall/util/BigDecimalUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../My_mmall/src/main/java/com/mmall/util/BigDecimalUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../My_mmall/src/main/java/com/mmall/util/DateTimeUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../My_mmall/src/main/java/com/mmall/util/DateTimeUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../My_mmall/src/main/java/com/mmall/util/FTPUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../My_mmall/src/main/java/com/mmall/util/FTPUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../My_mmall/src/main/java/com/mmall/util/PropertiesUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../My_mmall/src/main/java/com/mmall/util/PropertiesUtil.java" afterDir="false" />
-    </list>
+    <list default="true" id="c5d4a35e-881e-4542-a4ef-67131f85beb9" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -394,7 +371,7 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/qianjiapeng/Desktop/Me/学习/git版本推送仓库/LeetCode/java/NewCoder/Lesson2/课后练习1.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556003037276" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556011324508" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -585,6 +562,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="232" y="23" width="1209" height="841" extended-state="1" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12339332" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
