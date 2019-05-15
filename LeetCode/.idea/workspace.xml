@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c5d4a35e-881e-4542-a4ef-67131f85beb9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/java/SwordToOffer/No_19_顺时针打印矩阵.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/SwordToOffer/No_19_顺时针打印矩阵.java" afterDir="false" />
-    </list>
+    <list default="true" id="c5d4a35e-881e-4542-a4ef-67131f85beb9" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -110,26 +108,26 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="71" />
+          <entry key="java" value="77" />
           <entry key="png" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Image" value="1" />
-          <entry key="JAVA" value="71" />
+          <entry key="JAVA" value="77" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="1" />
-          <entry key="java" value="8536" />
+          <entry key="dummy" value="3" />
+          <entry key="java" value="10343" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="8536" />
-          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="JAVA" value="10343" />
+          <entry key="PLAIN_TEXT" value="3" />
         </counts>
       </usages-collector>
     </session>
@@ -137,10 +135,77 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/java/SwordToOffer/No_21_从上往下打印二叉树.java">
+        <entry file="file://$PROJECT_DIR$/java/SwordToOffer/No_27_字符串的排列.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="365">
-              <caret line="25" selection-start-line="25" selection-end-line="40" selection-end-column="5" />
+            <state relative-caret-position="136">
+              <caret line="8" selection-start-line="8" selection-end-line="11" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#538#546#0" expanded="true" />
+                <element signature="e#941#952#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java/NewCoder/class04/Code06_CopyListWithRandom.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="53">
+              <caret line="33" column="4" selection-start-line="33" selection-start-column="4" selection-end-line="64" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java/SwordToOffer/No_25_复杂链表的复制.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+              <folding>
+                <element signature="e#418#419#0" expanded="true" />
+                <element signature="e#460#461#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java/SwordToOffer/No_26_二叉搜索树与双向链表.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="112">
+              <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java/SwordToOffer/No_24_二叉树中和为某一值的路径.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-83">
+              <caret line="13" column="27" lean-forward="true" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+              <folding>
+                <element signature="e#465#486#0" expanded="true" />
+                <element signature="e#756#765#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java/SwordToOffer/No_22_从上往下打印二叉树.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java/SwordToOffer/No_23_二叉搜索树的后序遍历.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="138">
+              <caret line="20" column="3" lean-forward="true" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -168,11 +233,15 @@
       <find>leftRo</find>
       <find>ListNode</find>
       <find>mapAB.getOrDefaul</find>
+      <find>head</find>
     </findStrings>
     <replaceStrings>
       <replace />
       <replace>column</replace>
       <replace>TreeNode</replace>
+      <replace>pHead</replace>
+      <replace>random</replace>
+      <replace>cur.random</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/java/PlayWithDataStrucure</dir>
@@ -185,13 +254,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/java/SwordToOffer/No_7_斐波那契数列.java" />
-        <option value="$PROJECT_DIR$/java/SwordToOffer/No_8_跳台阶.java" />
-        <option value="$PROJECT_DIR$/java/SwordToOffer/No_9_变态跳台阶.java" />
-        <option value="$PROJECT_DIR$/java/SwordToOffer/No_10_矩形覆盖.java" />
-        <option value="$PROJECT_DIR$/java/SwordToOffer/No_12_数值的整数次方.java" />
-        <option value="$PROJECT_DIR$/java/SwordToOffer/No_13_调整数组顺序使奇数位于偶数前面.java" />
-        <option value="$PROJECT_DIR$/java/SwordToOffer/No_15_反转链表.java" />
         <option value="$PROJECT_DIR$/java/PlayWithAlgorithms/No_3_UsingArray_01BinarySearch/src/BinarySearch.java" />
         <option value="$PROJECT_DIR$/java/PlayWithAlgorithms/No_3_UsingArray/01-Binary-Search/src/BinarySearch.java" />
         <option value="$PROJECT_DIR$/java/PlayWithAlgorithms/No_3_UsingArray/Binary_SearchII/src/BinarySearch.java" />
@@ -236,6 +298,13 @@
         <option value="$PROJECT_DIR$/java/SwordToOffer/No_20_包含min函数的栈.java" />
         <option value="$PROJECT_DIR$/java/SwordToOffer/No_21_栈的压入弹出序列.java" />
         <option value="$PROJECT_DIR$/java/SwordToOffer/No_21_从上往下打印二叉树.java" />
+        <option value="$PROJECT_DIR$/java/SwordToOffer/No_23_从上往下打印二叉树.java" />
+        <option value="$PROJECT_DIR$/java/SwordToOffer/No_22_从上往下打印二叉树.java" />
+        <option value="$PROJECT_DIR$/java/SwordToOffer/No_23_二叉搜索树的后序遍历.java" />
+        <option value="$PROJECT_DIR$/java/SwordToOffer/No_24_二叉树中和为某一值的路径.java" />
+        <option value="$PROJECT_DIR$/java/SwordToOffer/No_25_复杂链表的复制.java" />
+        <option value="$PROJECT_DIR$/java/SwordToOffer/No_26_二叉搜索树与双向链表.java" />
+        <option value="$PROJECT_DIR$/java/SwordToOffer/No_27_字符串的排列.java" />
       </list>
     </option>
   </component>
@@ -246,8 +315,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="616" />
-    <option name="y" value="64" />
+    <option name="x" value="528" />
+    <option name="y" value="23" />
     <option name="width" value="1209" />
     <option name="height" value="840" />
   </component>
@@ -278,6 +347,19 @@
               <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
               <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="NewCoder" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="NewCoder" type="462c0819:PsiDirectoryNode" />
+              <item name="class04" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="SwordToOffer" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -285,7 +367,29 @@
               <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="SwordToOffer" type="462c0819:PsiDirectoryNode" />
-              <item name="No_20_包含min函数的栈" type="1a9f42e2:ClassTreeNode" />
+              <item name="No_25_复杂链表的复制" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="SwordToOffer" type="462c0819:PsiDirectoryNode" />
+              <item name="No_26_二叉搜索树与双向链表" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="SwordToOffer" type="462c0819:PsiDirectoryNode" />
+              <item name="No_26_二叉搜索树与双向链表" type="1a9f42e2:ClassTreeNode" />
+              <item name="TreeNode" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="SwordToOffer" type="462c0819:PsiDirectoryNode" />
+              <item name="No_27_字符串的排列" type="1a9f42e2:ClassTreeNode" />
             </path>
           </expand>
           <select />
@@ -298,7 +402,7 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/qianjiapeng/Desktop/Me/学习/git版本推送仓库/LeetCode/java/NewCoder/Lesson2/课后练习1.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557745128814" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557829498467" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -331,20 +435,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.No_21_栈的压入弹出序列">
-    <configuration name="课后练习3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="NewCoder.Lesson2.课后练习3" />
-      <module name="LeetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="NewCoder.Lesson2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.No_26_二叉搜索树与双向链表">
     <configuration name="Code01_HashAndTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="NewCoder.class04.Code01_HashAndTree" />
       <module name="LeetCode" />
@@ -397,6 +488,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="No_26_二叉搜索树与双向链表" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SwordToOffer.No_26_二叉搜索树与双向链表" />
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SwordToOffer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="寻找字符串最长回文" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Exercise.寻找字符串最长回文" />
       <module name="LeetCode" />
@@ -411,19 +515,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.课后练习3" />
       <item itemvalue="Application.Code01_HashAndTree" />
       <item itemvalue="Application.Code02_ReverseList" />
       <item itemvalue="Application.No_20_包含min函数的栈" />
       <item itemvalue="Application.No_21_栈的压入弹出序列" />
+      <item itemvalue="Application.No_26_二叉搜索树与双向链表" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.No_26_二叉搜索树与双向链表" />
         <item itemvalue="Application.No_21_栈的压入弹出序列" />
         <item itemvalue="Application.No_20_包含min函数的栈" />
         <item itemvalue="Application.Code02_ReverseList" />
         <item itemvalue="Application.Code01_HashAndTree" />
-        <item itemvalue="Application.课后练习3" />
       </list>
     </recent_temporary>
   </component>
@@ -469,18 +573,18 @@
       <workItem from="1555290024284" duration="322000" />
       <workItem from="1555575178502" duration="18197000" />
       <workItem from="1556522000208" duration="601000" />
-      <workItem from="1557498894769" duration="13833000" />
+      <workItem from="1557498894769" duration="25550000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="187096000" />
+    <option name="totallyTimeSpent" value="198813000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="616" y="64" width="1209" height="840" extended-state="0" />
+    <frame x="528" y="23" width="1209" height="840" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.12241522" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12241522" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -498,7 +602,7 @@
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32872927" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.3297587" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.3278237" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32707775" />
       <window_info anchor="bottom" id="JProfiler" order="12" />
       <window_info anchor="bottom" id="Thumbnails" order="13" weight="0.3292011" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -530,7 +634,7 @@
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32872927" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.3297587" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.3278237" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32707775" />
       <window_info anchor="bottom" id="JProfiler" order="12" />
       <window_info anchor="bottom" id="Thumbnails" order="13" weight="0.3292011" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -613,44 +717,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/java/SwordToOffer/No_17_树的子结构.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-501">
-          <caret line="29" column="2" lean-forward="true" selection-start-line="29" selection-start-column="2" selection-end-line="29" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/Map.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="405" column="14" selection-start-line="405" selection-start-column="14" selection-end-line="405" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/Exercise/字符串距离.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/Exercise/寻找字符串最长回文.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1411">
-          <caret line="83" selection-start-line="83" selection-end-line="83" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/Exercise/字符串处理函数.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/ArrayList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="8041">
@@ -914,13 +980,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java/NewCoder/class04/Code06_CopyListWithRandom.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/java/NewCoder/class04/Code07_FindFirstIntersectNode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -964,10 +1023,65 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java/SwordToOffer/No_21_从上往下打印二叉树.java">
+    <entry file="file://$PROJECT_DIR$/java/SwordToOffer/No_22_从上往下打印二叉树.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
-          <caret line="25" selection-start-line="25" selection-end-line="40" selection-end-column="5" />
+        <state relative-caret-position="195">
+          <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/SwordToOffer/No_23_二叉搜索树的后序遍历.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="20" column="3" lean-forward="true" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/SwordToOffer/No_24_二叉树中和为某一值的路径.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-83">
+          <caret line="13" column="27" lean-forward="true" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+          <folding>
+            <element signature="e#465#486#0" expanded="true" />
+            <element signature="e#756#765#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/NewCoder/class04/Code06_CopyListWithRandom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="53">
+          <caret line="33" column="4" selection-start-line="33" selection-start-column="4" selection-end-line="64" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/SwordToOffer/No_25_复杂链表的复制.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+          <folding>
+            <element signature="e#418#419#0" expanded="true" />
+            <element signature="e#460#461#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/SwordToOffer/No_26_二叉搜索树与双向链表.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/SwordToOffer/No_27_字符串的排列.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="11" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#538#546#0" expanded="true" />
+            <element signature="e#941#952#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
