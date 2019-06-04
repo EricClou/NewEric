@@ -13,6 +13,7 @@ public class No_2_替换空格 {
 
     /**
      * 不能使用普通的JAVA分词方法split，这是因为如果空格出现在字符串的头部或者尾部，此时将不会计入。
+     *
      * @param str
      * @return
      */
